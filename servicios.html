@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriVida | Servicios</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f8f3;
+            color: #333;
+        }
+
+        header {
+            background-color: #4c956c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #2f6f4e;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #6aaf83;
+        }
+
+        .contenedor {
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #cccccc;
+        }
+
+        .tarjeta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 25px;
+            background-color: #f6fbf7;
+            border: 1px solid #c9dfce;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .texto {
+            flex: 1;
+        }
+
+        .tarjeta h2 {
+            color: #2f6f4e;
+            margin-top: 0;
+        }
+
+        .tarjeta img {
+            width: 220px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #2f6f4e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* Adaptación para celulares */
+        @media (max-width: 600px) {
+            .contenedor {
+                width: 85%;
+                padding: 15px;
+            }
+
+            .tarjeta {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .tarjeta img {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mis servicios</h1>
+        <p>Información para cuidar tus hábitos</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="consejos.html">Consejos</a>
+        <a href="cita.html">Citas</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <h2>¿Qué encontrarás en NutriVida?</h2>
+
+        <p>
+            En esta página se presentan servicios
+            relacionados con la educación alimentaria y los hábitos
+            saludables.
+        </p>
+
+        <div class="tarjeta">
+            <div class="texto">
+                <h2>1. Orientación alimentaria</h2>
+                <p>
+                    La orientación saludable es el proceso de guiar y dar herramientas a una persona 
+                    para que adopte hábitos sanos según su propio estilo de vida. Se resume en:
+                </p>
+                <ul>
+                    <li><strong>Asesoría personalizada: </strong>Crear metas reales adaptadas a los gustos, tiempos y presupuesto de cada persona.</li>
+                    <li><strong>Enfoque integral: </strong>Conectar cuerpo y mente (comida, ejercicio, sueño y emociones).</li>
+                    <li><strong>Autonomía: </strong>Enseñar a tomar decisiones correctas por cuenta propia a largo plazo.</li>
+                    <li><strong>Prevención: </strong>Enfocarse en evitar enfermedades y mejorar la energía diaria.</li>
+            </div>
+
+            <img src="img/orientacion.jpg"
+                 alt="Alimentos variados y saludables">
+        </div>
+
+        <div class="tarjeta">
+            <div class="texto">
+                <h2>2. Hábitos saludables</h2>
+                <p>
+                    Los hábitos saludables son rutinas diarias que cuidan tu salud y 
+                    previenen enfermedades. Se resumen en:
+                </p>
+                <ul>
+                    <li><strong>Alimentación: </strong>Come sano, toma agua y evita ultraprocesados.</li>
+                    <li><strong>Ejercicio: </strong>Mantente activo y entrena fuerza./li>
+                    <li><strong>Descanso: </strong>Duerme de 7 a 8 horas diarias.</li>
+                    <li><strong>Higiene: </strong>Mantén tu aseo personal diario.</li>
+                    <li><strong>Salud mental: </strong>Reduce el estrés y conecta con otros.</li>
+                    <li><strong>Evitar tóxicos: </strong>Di no al tabaco, alcohol y automedicación.</li>
+                </ul>
+            </div>
+            <img src="img/habitos.jpg"
+                 alt="Agua y hábitos saludables">
+        </div>
+
+        <div class="tarjeta">
+            <div class="texto">
+                <h2>3. Educación nutricional</h2>
+
+                <p>
+                    La educación nutricional enseña a tomar decisiones alimentarias 
+                    conscientes e informadas para mejorar la salud de forma permanente. 
+                    Se resume en:
+                </p>
+                <ul>
+                <li><strong>Aprender a elegir: </strong>Saber leer etiquetas, identificar ingredientes de calidad y medir porciones.</li>
+                <li><strong>Planificar el plato:</strong>Diseñar comidas equilibradas (como el plato saludable) y cocinar con poca grasa.</li>
+                <li><strong>Comer con conciencia: </strong>Escuchar el hambre y la saciedad real, evitando comer por estrés o ansiedad.</li>
+                <li><strong>Prevenir enfermedades: </strong>Entender el impacto de la comida en la energía diaria y en la salud del corazón.</li>
+                </ul>
+            </div>
+
+            <img src="img/educacion.png"
+                 alt="Plato con alimentos variados">
+        </div>
+
+        <div class="tarjeta">
+            <div class="texto">
+                <h2>4. Información para toda la familia</h2>
+
+                <p>La nutrición familiar adapta la alimentación a 
+                    las necesidades de todos en casa, promoviendo hábitos saludables juntos. 
+                    Se resume en:
+                </p>
+                <ul>
+                <li><strong>Plato equilibrado: </strong>Llenar la mitad del plato con vegetales, un cuarto con proteína y un cuarto con carbohidratos.</li>
+                <li><strong>Agua como prioridad: </strong>Eliminar refrescos y jugos envasados; usar el agua como bebida principal.</li>
+                <li><strong>Mesa sin pantallas: </strong>Comer juntos sin televisión ni celulares para mejorar la convivencia y el control del apetito.</li>
+                <li><strong>Nutrición por edad: </strong>Dar calcio y hierro a niños en crecimiento, cuidar porciones en adultos y asegurar fibra en adultos mayores.</li>
+                <li><strong>Hábitos en equipo: </strong>Involucrar a todos en las compras, la cocina y mantener snacks saludables (fruta picada) listos en casa.</li>
+                </ul>
+            </div>
+
+            <img src="img/familia.jfif"
+                 alt="Familia preparando alimentos">
+        </div>
+
+    </div>
+
+    <footer>
+        <p>NutriVida © 2026 | Proyecto escolar</p>
+    </footer>
+
+</body>
+</html>

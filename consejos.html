@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriVida | Consejos</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f8f3;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4c956c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #2f6f4e;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #6aaf83;
+        }
+
+        .contenedor {
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #cccccc;
+        }
+
+        h2 {
+            color: #2f6f4e;
+        }
+
+        .consejo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 25px;
+            background-color: #f6fbf7;
+            border: 1px solid #c9dfce;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .texto {
+            flex: 1;
+        }
+
+        .consejo img {
+            width: 220px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #2f6f4e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .contenedor {
+                width: 85%;
+                padding: 15px;
+            }
+
+            .consejo {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .consejo img {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Consejos saludables</h1>
+        <p>Pequeños hábitos que pueden hacer la diferencia</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="consejos.html">Consejos</a>
+        <a href="cita.html">Citas</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <h2>Cuida tu bienestar todos los días</h2>
+
+        <p>
+            Aquí encontrarás algunos consejos sencillos que puedes
+            incorporar a tu vida diaria para cuidar tu bienestar.
+        </p>
+
+        <div class="consejo">
+            <div class="texto">
+                <h2>1. Come alimentos variados</h2>
+                <p>
+                    Procura incluir diferentes alimentos, como frutas,
+                    verduras, cereales, leguminosas y fuentes de proteína.
+                    La variedad ayuda a obtener diferentes nutrientes.
+                </p>
+            </div>
+
+            <img src="img/frutas.jpg"
+                 alt="Frutas y verduras variadas">
+        </div>
+
+        <div class="consejo">
+            <div class="texto">
+                <h2>2. Toma agua natural</h2>
+                <p>
+                    Ten agua disponible durante el día y bebe con
+                    regularidad, de acuerdo con tus necesidades.
+                    El agua ayuda a mantener el cuerpo hidratado.
+                </p>
+            </div>
+
+            <img src="img/agua.jpg"
+                 alt="Vaso de agua natural">
+        </div>
+
+        <div class="consejo">
+            <div class="texto">
+                <h2>3. Mantén una alimentación equilibrada</h2>
+                <p>
+                    Procura comer de manera suficiente y variada.
+                    Evita sentir culpa por los alimentos que disfrutas
+                    y escucha las señales de hambre y saciedad de tu cuerpo.
+                </p>
+            </div>
+
+            <img src="img/alimentacion.jfif"
+                 alt="Plato con alimentos variados">
+        </div>
+
+        <div class="consejo">
+            <div class="texto">
+                <h2>4. Realiza actividades que disfrutes</h2>
+                <p>
+                    Caminar, bailar, jugar o andar en bicicleta son
+                    ejemplos de actividades que pueden formar parte
+                    de una rutina activa.
+                </p>
+            </div>
+
+            <img src="img/ejercicio.jpg"
+                 alt="Personas realizando actividad física">
+        </div>
+
+        <div class="consejo">
+            <div class="texto">
+                <h2>5. Descansa lo suficiente</h2>
+                <p>
+                    Intenta mantener horarios de sueño regulares.
+                    Descansar es importante para recuperar energía
+                    y sentirte mejor durante el día.
+                </p>
+            </div>
+
+            <img src="img/descanso.jfif"
+                 alt="Habitación preparada para descansar">
+        </div>
+
+        <div class="consejo">
+            <div class="texto">
+                <h2>6. Cuida tu bienestar emocional</h2>
+                <p>
+                    Dedica tiempo a tus pasatiempos, habla con personas
+                    de confianza cuando lo necesites y recuerda que
+                    cada persona es diferente.
+                </p>
+            </div>
+
+            <img src="img/bienestar.jpg"
+                 alt="Persona disfrutando de un momento tranquilo">
+        </div>
+
+    </div>
+
+    <footer>
+        <p>NutriVida © 2026 | Proyecto escolar</p>
+    </footer>
+
+</body>
+</html>
